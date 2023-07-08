@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# "My guitar blog"
 
-## Getting Started
+### Author Links
 
-First, run the development server:
+👋 Hello, I'm Don Thomas B. Talking about music, IT, whatelse...
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✅ [Check out my YouTube Channel](https://www.youtube.com/@thomasbatard4856).
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+🚀 Follow Me:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [LinkedIn](https://www.linkedin.com/in/thomas-b-33a98120/)
+- [Blog](https://)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+### Description
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📚 References
+- 🔗 [Next.js Official Site](https://nextjs.org/)
+- 🔗 [Next.js 13 Docs](https://nextjs.org/docs)
+- 🔗 [Cloudflare: How does a CDN work?](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+- 🔗 [What is MDX?](https://mdxjs.com/docs/what-is-mdx/)
+- 🔗 [next-mdx-remote RSC Docs](https://github.com/hashicorp/next-mdx-remote#react-server-components-rsc--nextjs-app-directory-support)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🚀 Early Project Dependencies
+- 🔗 [react-icons](https://www.npmjs.com/package/react-icons)
+- 🔗 [gray-matter](https://www.npmjs.com/package/gray-matter)
+- 🔗 [remark](https://www.npmjs.com/package/remark)
+- 🔗 [remark-html](https://www.npmjs.com/package/remark-html)
+- 🔗 [limiter](https://www.npmjs.com/package/limiter)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🚀 Final Project Dependencies
+- 🔗 [react-icons](https://www.npmjs.com/package/react-icons)
+- 🔗 [next-mdx-remote](https://www.npmjs.com/package/next-mdx-remote)
+- 🔗 [highlight.js](https://www.npmjs.com/package/highlight.js)
+- 🔗 [rehype-highlight](https://www.npmjs.com/package/rehype-highlight)
+- 🔗 [rehype-slug](https://www.npmjs.com/package/rehype-slug)
+- 🔗 [rehype-autolink-headings](https://www.npmjs.com/package/rehype-autolink-headings)
+- 🔗 [sharp](https://www.npmjs.com/package/sharp)
+- 🔗 [next-sitemap](https://www.npmjs.com/package/next-sitemap)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---

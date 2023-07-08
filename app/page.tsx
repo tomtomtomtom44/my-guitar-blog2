@@ -1,15 +1,20 @@
-import getPostMetadata from "../components/getPostMetadata";
-import PostPreview from "../components/PostPreview";
+import Posts from "./components/Posts"
+import MyProfilePic from './components/MyProfilePic'
 
-const HomePage = () => {
-  const postMetadata = getPostMetadata();
-  const postPreviews = postMetadata.map((post) => (
-    <PostPreview key={post.slug} {...post} />
-  ));
+export const revalidate = 86400
 
+export default function Home() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
-  );
-};
-
-export default HomePage;
+    <div className="mx-auto">
+      <MyProfilePic/>
+      <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
+        Hello and Welcome 👋&nbsp;
+        <span className="whitespace-nowrap">
+          I'm <span className="font-bold">Don Thomas B</span>.
+        </span>
+      </p>
+      {/* @ts-expect-error Server Component */}
+      <Posts />
+    </div>
+  )
+}
