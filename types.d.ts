@@ -11,3 +11,8 @@ type BlogPost = {
 }
 
 declare module 'flat-embed';
+declare module '@strudel.cycles/react';
+declare module '@strudel.cycles/core';
+declare module '@strudel.cycles/webaudio';
+declare module '@strudel.cycles/mini';
+declare module '@strudel.cycles/tonal';

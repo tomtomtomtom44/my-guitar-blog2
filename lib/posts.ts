@@ -4,6 +4,7 @@ import rehypeHighlight from 'rehype-highlight/lib'
 import rehypeSlug from 'rehype-slug'
 import Video from '@/app/components/Video'
 import { Score } from '@/app/components/Score'
+import { Strudel } from '@/app/components/Strudel'
 import CustomImage from '@/app/components/CustomImage'
 
 type Filetree = {
@@ -35,6 +36,7 @@ export async function getPostByName(fileName: string): Promise<BlogPost | undefi
             Video,
             CustomImage,
             Score,
+            Strudel
         },
         options: {
             parseFrontmatter: true,
