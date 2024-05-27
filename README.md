@@ -10,11 +10,7 @@
 🚀 Follow Me:
 
 - [LinkedIn](https://www.linkedin.com/in/thomas-b-33a98120/)
-- [Blog](https://)
-
----
-
-### Description
+- [Blog (this blog in fact deployed on Vercel)](https://don-thomas-guitar-blog.vercel.app/)
 
 ---
 
